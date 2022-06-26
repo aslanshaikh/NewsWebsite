@@ -21,7 +21,7 @@ export class Nvabar extends Component {
                                 </li>
                                
                                  <li className="nav-item">
-                                    <Link className="nav-link" to="/NewsWebsite/business">Business</Link></li>
+                                    <a className="nav-link" href="https://aslanshaikh.github.io/business">Business</a></li>
                                  <li className="nav-item">
                                     <Link className="nav-link" to="/entertainment">Entertainment</Link></li>
                                  <li className="nav-item">
