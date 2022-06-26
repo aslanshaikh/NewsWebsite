@@ -16,7 +16,7 @@ export default class App extends Component {
         <Nvabar/>
         
         <Routes>
-          <Route exact path="/" element={<News key="technology"  country="in" pageSize={this.pageSize} category="technology"/> } />
+          <Route exact path="/NewsWebsite/" element={<News key="technology"  country="in" pageSize={this.pageSize} category="technology"/> } />
          
           <Route exact path="NewsWebsite/Business" element={<News key="business"  country="in" pageSize={this.pageSize} category="business"/> } />
           <Route exact path="/General" element={<News key="general"  country="in" pageSize={this.pageSize} category="general"/> } />
